@@ -14,7 +14,7 @@ function main(){
 
     let NameInput = document.getElementById('name').value;
     console.log(NameInput);
-    document.querySelector('h1').innerText = NameInput;
+    document.querySelector('h1').innerText = NameInput; //remember the innerText is going to replace all the content in the element so if you want it to say "Welcome" still you would have to put that after the equal sign as well
 
 }
 
